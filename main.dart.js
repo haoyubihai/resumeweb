@@ -847,7 +847,7 @@ od(){return B.c.Y(self.window.performance.now()*1000)},
 axW(a){if($.aiY!=null)return
 $.aiY=new A.a05(a.gcs())},
 axT(a){var s,r,q,p,o,n,m
-$label0$0:for(s=a.length,r=0;r<6;++r){q=B.BZ[r]
+$label0$0:for(s=a.length,r=0;r<6;++r){q=B.C_[r]
 p=q.a
 o=p.length
 if(s<o)continue $label0$0
@@ -64859,7 +64859,7 @@ A.a4r.prototype={
 $2(a,b){return B.cp},
 $S:55}
 A.a4q.prototype={
-$2(a,b){return B.BY[b]},
+$2(a,b){return B.BZ[b]},
 $S:415}
 A.a4s.prototype={
 $0(){var s=this.a,r=s.e
@@ -64882,7 +64882,7 @@ a9(){return new A.Kg(new A.Q6(new A.bn(new A.af($.a6,t.wC),t.Fe)),A.b([],t.hG))}
 A.Kg.prototype={
 Y5(){var s,r,q,p=this,o=p.e
 B.b.I(o)
-for(s=t.P,r=0;r<7;++r){q=new A.wS(A.kJ(B.C_[r]).k(0),B.NY,$.aA())
+for(s=t.P,r=0;r<7;++r){q=new A.wS(A.kJ(B.BS[r]).k(0),B.NY,$.aA())
 q.qf(!0)
 q.nn(0)
 q.eX().bg(new A.a8o(p,r),s).ko(new A.a8p(p))
@@ -69145,6 +69145,7 @@ B.iq=new A.yz(0,"named")
 B.w7=new A.yz(1,"anonymous")
 B.BN=A.b(s([B.iq,B.w7]),A.aa("v<yz>"))
 B.BR=A.b(s([B.fa,B.fb]),A.aa("v<r4>"))
+B.BS=A.b(s(["http://sivbtl3b7.hn-bkt.clouddn.com/wukong_new.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day1.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day2.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day3.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day4.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day5.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day6.mp4"]),t.s)
 B.kp=A.b(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.cV=A.b(s([B.c_,B.aV,B.dt,B.du,B.dv]),t.QP)
 B.kq=A.b(s([0,0.5,1]),t.n)
@@ -69158,7 +69159,7 @@ B.MO=new A.eY("\u7535\u8bdd: 17600382675",null,B.aD,null,null,null,null,null,nul
 B.ML=new A.eY("\u5fae\u4fe1: L-J-J-happy",null,B.aD,null,null,null,null,null,null,null,null,null,null)
 B.MP=new A.eY("\u90ae\u7bb1: jiarhmail@163.com",null,B.aD,null,null,null,null,null,null,null,null,null,null)
 B.MM=new A.eY("\u5b66\u5386: \u672c\u79d1",null,B.aD,null,null,null,null,null,null,null,null,null,null)
-B.BY=A.b(s([B.In,B.MR,B.i5,B.MN,B.MO,B.ML,B.MP,B.MM]),t.F)
+B.BZ=A.b(s([B.In,B.MR,B.i5,B.MN,B.MO,B.ML,B.MP,B.MM]),t.F)
 B.C9=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
 B.AC=new A.iG(B.C9,"image/png")
 B.C5=A.b(s([71,73,70,56,55,97]),t.Z)
@@ -69171,11 +69172,10 @@ B.BQ=A.b(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
 B.AE=new A.iG(B.BQ,"image/webp")
 B.BE=A.b(s([66,77]),t.Z)
 B.AD=new A.iG(B.BE,"image/bmp")
-B.BZ=A.b(s([B.AC,B.AG,B.AH,B.AF,B.AE,B.AD]),A.aa("v<iG>"))
+B.C_=A.b(s([B.AC,B.AG,B.AH,B.AF,B.AE,B.AD]),A.aa("v<iG>"))
 B.CL=new A.kd("en","US")
 B.kr=A.b(s([B.CL]),t.ss)
 B.ks=A.b(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
-B.C_=A.b(s(["http://sivbtl3b7.hn-bkt.clouddn.com/wukong.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day1.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day2.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day3.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day4.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day5.mp4","http://sivbtl3b7.hn-bkt.clouddn.com/video_Day6.mp4"]),t.s)
 B.C0=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.IG=new A.wj(0,"left")
 B.IH=new A.wj(1,"right")
@@ -69295,19 +69295,19 @@ B.Eg=new A.Ds(0,"min")
 B.N=new A.Ds(1,"max")
 B.kG=new A.d(42)
 B.pm=new A.d(8589935146)
-B.BT=A.b(s([B.kG,null,null,B.pm]),t.L)
+B.BU=A.b(s([B.kG,null,null,B.pm]),t.L)
 B.p8=new A.d(43)
 B.pn=new A.d(8589935147)
-B.BU=A.b(s([B.p8,null,null,B.pn]),t.L)
+B.BV=A.b(s([B.p8,null,null,B.pn]),t.L)
 B.p9=new A.d(45)
 B.po=new A.d(8589935149)
-B.BV=A.b(s([B.p9,null,null,B.po]),t.L)
+B.BW=A.b(s([B.p9,null,null,B.po]),t.L)
 B.pa=new A.d(46)
 B.bH=new A.d(8589935150)
-B.BW=A.b(s([B.pa,null,null,B.bH]),t.L)
+B.BX=A.b(s([B.pa,null,null,B.bH]),t.L)
 B.pb=new A.d(47)
 B.pp=new A.d(8589935151)
-B.BX=A.b(s([B.pb,null,null,B.pp]),t.L)
+B.BY=A.b(s([B.pb,null,null,B.pp]),t.L)
 B.pc=new A.d(48)
 B.hf=new A.d(8589935152)
 B.Cf=A.b(s([B.pc,null,null,B.hf]),t.L)
@@ -69368,7 +69368,7 @@ B.BK=A.b(s([B.cZ,null,null,B.d4]),t.L)
 B.d_=new A.d(4294968072)
 B.B6=A.b(s([B.d_,null,null,B.d6]),t.L)
 B.CI=A.b(s([B.bG,B.bG,B.cd,null]),t.L)
-B.Eh=new A.co(["*",B.BT,"+",B.BU,"-",B.BV,".",B.BW,"/",B.BX,"0",B.Cf,"1",B.Cg,"2",B.Ch,"3",B.Ci,"4",B.Cj,"5",B.Ck,"6",B.Cl,"7",B.Cm,"8",B.Ca,"9",B.Cb,"Alt",B.CF,"AltGraph",B.Ce,"ArrowDown",B.BF,"ArrowLeft",B.BG,"ArrowRight",B.BH,"ArrowUp",B.Bt,"Clear",B.BO,"Control",B.CG,"Delete",B.BM,"End",B.BI,"Enter",B.BD,"Home",B.BJ,"Insert",B.BP,"Meta",B.CH,"PageDown",B.BK,"PageUp",B.B6,"Shift",B.CI],A.aa("co<w,S<d?>>"))
+B.Eh=new A.co(["*",B.BU,"+",B.BV,"-",B.BW,".",B.BX,"/",B.BY,"0",B.Cf,"1",B.Cg,"2",B.Ch,"3",B.Ci,"4",B.Cj,"5",B.Ck,"6",B.Cl,"7",B.Cm,"8",B.Ca,"9",B.Cb,"Alt",B.CF,"AltGraph",B.Ce,"ArrowDown",B.BF,"ArrowLeft",B.BG,"ArrowRight",B.BH,"ArrowUp",B.Bt,"Clear",B.BO,"Control",B.CG,"Delete",B.BM,"End",B.BI,"Enter",B.BD,"Home",B.BJ,"Insert",B.BP,"Meta",B.CH,"PageDown",B.BK,"PageUp",B.B6,"Shift",B.CI],A.aa("co<w,S<d?>>"))
 B.Bk=A.b(s([42,null,null,8589935146]),t.Z)
 B.Bl=A.b(s([43,null,null,8589935147]),t.Z)
 B.Bn=A.b(s([45,null,null,8589935149]),t.Z)
@@ -70916,8 +70916,8 @@ B.O2=new A.x8(0,"checkbox")
 B.O3=new A.x8(1,"radio")
 B.O4=new A.x8(2,"toggle")
 B.yz=new A.r(67108864)
-B.BS=A.b(s([B.yz,B.F]),t.t_)
-B.O5=new A.hj(B.BS)
+B.BT=A.b(s([B.yz,B.F]),t.t_)
+B.O5=new A.hj(B.BT)
 B.O6=new A.hj(null)
 B.cw=new A.IC(0,"horizontal")
 B.cx=new A.IC(1,"vertical")
