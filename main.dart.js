@@ -23505,8 +23505,8 @@ case 2:return B.w6
 case 1:return B.w5
 case 3:return B.IU
 case 4:return B.w7}},
-aja(a,b){var s=0,r=A.I(t.y),q,p,o,n,m,l,k
-var $async$aja=A.J(function(c,d){if(c===1)return A.F(d,r)
+aja(a,b,c){var s=0,r=A.I(t.y),q,p,o,n,m,l,k
+var $async$aja=A.J(function(d,e){if(d===1)return A.F(e,r)
 while(true)switch(s){case 0:if(b===B.Dn||b===B.lX)p=!(a.glp()==="https"||a.glp()==="http")
 else p=!1
 if(p)throw A.f(A.hd(a,"url","To use an in-app web view, you must provide an http(s) URL."))
@@ -23516,7 +23516,7 @@ n=A.aFa(b)
 m=B.d.cV(o,"http:")||B.d.cV(o,"https:")
 l=!0
 if(n!==B.w5)if(n!==B.w6){k=m&&n===B.w4
-l=k}q=p.af7(o,!0,!0,B.GQ,n===B.w7,l,l,null)
+l=k}q=p.af7(o,!0,!0,B.GQ,n===B.w7,l,l,c)
 s=1
 break
 case 1:return A.G(q,r)}})
@@ -73604,7 +73604,7 @@ return A.O(A.am6(A.h2(a)),$async$rq)
 case 5:s=c?2:4
 break
 case 2:s=6
-return A.O(A.aja(A.h2(a),B.Dm),$async$rq)
+return A.O(A.aja(A.h2(a),B.Dm,"_self"),$async$rq)
 case 6:s=3
 break
 case 4:p=q.c
@@ -74436,7 +74436,7 @@ case 4:m=null
 p=7
 l=n.ga9t()?B.lX:B.Do
 s=10
-return A.O(A.aja(i,l),$async$pD)
+return A.O(A.aja(i,l,null),$async$pD)
 case 10:m=c
 p=2
 s=9
